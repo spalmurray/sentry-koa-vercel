@@ -1,0 +1,21 @@
+{
+  "name": "sentry-koa-vercel",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vercel dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^7.8.1",
+    "@vercel/node": "^2.5.5",
+    "dotenv": "^16.0.1",
+    "koa": "^2.13.4",
+    "koa-router": "^12.0.0",
+    "vercel": "^27.3.7"
+  }
+}
